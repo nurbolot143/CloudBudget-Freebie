@@ -1,0 +1,54 @@
+@import "../vars";
+
+.catalog {
+  background-color: #fafafa;
+  padding-bottom: 200px;
+  margin: 0;
+  &-title {
+    padding-top: 67px;
+    font-family: $main-font;
+    font-style: 500;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: $dark;
+  }
+  &-img {
+    width: 100%;
+  }
+  &-card {
+    position: relative;
+    max-width: 370px;
+    margin: 75px 0 75px 0;
+  }
+
+  &-card + &-card {
+    margin-left: 15px;
+  }
+
+  &-discription {
+    position: absolute;
+    max-width: 293px;
+    margin-top: -93px;
+    margin-left: 27px;
+    padding: 30px 20px 25px 20px;
+    background-color: $light;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  .card-title {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: $dark;
+  }
+  .card-txt {
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    color: $dark;
+  }
+}

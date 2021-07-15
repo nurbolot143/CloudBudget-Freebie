@@ -1,0 +1,13 @@
+@import "../vars";
+
+.promo {
+  background-color: $accent-color;
+  color: $light;
+  h2 {
+    color: $light;
+  }
+
+  .promo-link + .promo-link {
+    margin-left: 23px;
+  }
+}

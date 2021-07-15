@@ -1,0 +1,70 @@
+@import "../vars";
+
+.header {
+  font-family: $main-font;
+  &-nav {
+    margin: 0 auto;
+  }
+  &-nav {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-transform: uppercase;
+    a {
+      color: $light !important;
+    }
+  }
+  .toggler {
+    &-icon {
+      width: 40px;
+    }
+  }
+  &-login-link {
+    transition-duration: 0.5s;
+    border: 1px solid $light;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 12px 28px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $light;
+    margin: 12px 29px;
+  }
+  &-login-link:hover {
+    background-color: $light;
+    color: $accent-color;
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    &-login {
+      order: -1;
+    }
+    &-logo {
+      order: -1;
+    }
+    .nav-item {
+      width: 100%;
+      padding-left: 1em;
+    }
+    &-toggler {
+      color: $light;
+    }
+    .nav-item + .nav-item {
+      border-top: 1px dotted $light;
+    }
+  }
+}
+
+@media (max-width: 462px) {
+  .header-toggler {
+    order: -1;
+  }
+}

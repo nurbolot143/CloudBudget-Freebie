@@ -1,0 +1,32 @@
+@import "../vars";
+
+.contact {
+  padding: 95px 0;
+  &-input {
+    padding: 21px 31px 21px;
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  &-button {
+    transition-duration: 0.5s;
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin-top: 27px;
+    padding: 17px 34px;
+    color: $light;
+    background-color: $accent-color;
+    border: $light;
+    border-radius: 6px;
+  }
+  &-button:hover {
+    border: 1.5px solid $accent-color;
+    color: $accent-color;
+    background-color: $light;
+  }
+}

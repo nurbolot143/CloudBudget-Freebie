@@ -1,0 +1,37 @@
+@import "../vars";
+
+.main-grid {
+  padding: 95px 0;
+
+  &-description {
+    padding-bottom: 2em;
+    &-container {
+      max-width: 500px;
+    }
+  }
+  &-title {
+    font-family: $main-font;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: $dark;
+  }
+
+  &-txt {
+    padding-top: 40px;
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+  }
+
+  &-image {
+    width: 90%;
+    height: auto;
+    border-radius: 19px;
+  }
+  &-link {
+    padding-left: 2em;
+  }
+}

@@ -1,0 +1,24 @@
+@import "vars";
+.link {
+  transition-duration: 0.5s;
+  text-decoration: none;
+  font-family: $main-font;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: $accent-color;
+}
+.link:hover {
+  padding: 1em 2em;
+  background: $accent-color;
+  border: 1.5px solid $accent-color;
+  box-sizing: border-box;
+  border-radius: 6px;
+  color: $light;
+}
+
+@media (max-width: 520px) {
+  * {
+    text-align: center;
+  }
+}

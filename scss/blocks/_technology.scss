@@ -1,0 +1,44 @@
+@import "../vars";
+
+.technology {
+  padding: 60px 0 100px 0;
+  margin: 0;
+  &-title {
+    font-family: $main-font;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: $dark;
+  }
+
+  &-card {
+    max-width: 255px;
+    padding: 10px 30px 10px 30px;
+  }
+
+  &-number {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120px;
+    color: rgba(16, 16, 16, 0.08);
+  }
+  &-icon {
+    margin-top: -67px;
+  }
+  .card-title {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: $dark;
+  }
+  .card-txt {
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: $dark;
+  }
+}
