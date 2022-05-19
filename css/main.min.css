@@ -162,7 +162,7 @@
 }
 
 .top-screen {
-  background-image: url(../../images/Bg.jpg);
+  background-image: url(../images/Bg.jpg);
   -webkit-background-size: cover;
           background-size: cover;
   text-align: center;
